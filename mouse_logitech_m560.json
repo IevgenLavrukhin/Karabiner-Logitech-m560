@@ -1,0 +1,141 @@
+{
+    "title": "Scroll rules. available since Karabiner-Elements 11.1.8!",
+    "rules": [
+        {
+            "description": "Mouse button5 → Desktop_Left",
+            "manipulators": [
+                {
+                    "from": {
+                        "pointing_button": "button5",
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Mouse button4 → Desktop_Right",
+            "manipulators": [
+                {
+                    "from": {
+                        "pointing_button": "button4",
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+        {
+            "description": "Mouse Central Button → ScreenShot",
+            "manipulators": [
+                {
+                    "from": {
+                       "simultaneous": [
+                          { 
+                             "key_code": "left_alt"
+                          },
+                          {
+                             "key_code": "left_gui"
+                          },
+                          {
+                             "key_code": "f23"
+                          }
+                        ],
+                        "modifiers": {
+                           "optional": [
+                              "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                           "key_code": "4",
+                            "modifiers": [
+                                "left_shift",
+																"left_command"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Mouse Up Coursore Button → Mission Control",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "right_gui",
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                           "key_code": "up_arrow",
+                            "modifiers": [
+																"control"
+                            ]
+
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Mouse Down Coursore Button →  Launchad",
+            "manipulators": [
+                {
+                    "from": {
+                       "simultaneous": [
+                          {
+                             "key_code": "d"
+                          },
+                          {
+                             "key_code": "left_gui"
+                          }
+                        ],
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {	
+													"key_code": "launchpad"	
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}

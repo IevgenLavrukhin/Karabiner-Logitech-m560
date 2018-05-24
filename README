@@ -1,0 +1,5 @@
+Copy the "mouse_logitech_m560.json" file to the following folder:
+            ~/.config/karabiner/assets/complex_modifications
+
+Then  configure your karabiner to use "complex modifucations" as it is shown on the pictures.
+
