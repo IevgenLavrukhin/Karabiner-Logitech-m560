@@ -1,0 +1,53 @@
+{
+    "title": "Mouse Personal rules. available since Karabiner-Elements 11.1.8!",
+    "rules": [
+        {
+            "description": "Mouse button5 → Desktop_Left",
+            "manipulators": [
+                {
+                    "from": {
+                        "pointing_button": "button5",
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_arrow",
+                            "modifiers": [ 
+                                "control" 
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
+            "description": "Mouse button4 → Desktop_Right",
+            "manipulators": [
+                {
+                    "from": {
+                        "pointing_button": "button4",
+                        "modifiers": {
+                           "optional": [
+                             "any"
+                           ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_arrow",
+                            "modifiers": [ 
+                                "control" 
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
